@@ -84,7 +84,7 @@ val_predictions = iowa_model.predict(val_X)
 val_mae = mean_absolute_error(val_predictions, val_y)
 print("Validation MAE for best value of max_leaf_nodes: {:,.0f}".format(val_mae))
 
---
+###
 
 # import Random Forest model
 from sklearn.ensemble import RandomForestRegressor
@@ -101,4 +101,13 @@ rf_val_mae = mean_absolute_error(val_y, rf_model.predict(val_X))
 print("Validation MAE for Random Forest Model: {}".format(rf_val_mae))
 
 ```
-
+---
+🐍Nowaday, Python is the programming language suitable for engineering, Physicist, mathematician, visualize, data processing and also training data due to the hug libraries. 
+The more expert at using Python libraries, the more efficient you for your work! Here are some useful library: 
+* Numpy: handle array and matrices
+* Pandas: be created for data sets
+* Matplotlib: visualize data
+* OpenCV: image processor 
+* Scipy: algebra processor
+* Scikit-learn: provide machine learning tool
+* PyTorch: provide deep learning tool
